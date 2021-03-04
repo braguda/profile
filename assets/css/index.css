@@ -1,0 +1,35 @@
+:root {
+    --primary-color: rgb(27, 27, 27);
+    --secondary-color: rgb(240, 191, 87);
+    --tertiary-color: rgb(98, 106, 121);
+}
+
+body{
+    background-color: bisque;
+    background-image: url("../images/DTLA.jpg");
+    background-size: auto;
+    background-position: 20% 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.home{ 
+    height: 100%;
+    padding-top: 25vh;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.home-name{
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid whitesmoke;
+    color: whitesmoke; 
+}
+
+.home-name-last{
+    font-weight: 700;
+    color: var(--tertiary-color);
+}

@@ -1,0 +1,62 @@
+:root {
+    --primary-color: rgb(42, 31, 68);
+    --secondary-color: rgb(207, 157, 96);
+    --tertiary-color: rgb(98, 106, 121);
+}
+
+body{
+    background-color: whitesmoke;
+    background-size: auto;
+    /* background-position: 20% 20%; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.projects-container{
+    padding-top: 3em;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.projects-container > div:nth-child(odd){
+    background:rgb(243, 243, 243);
+}
+
+.project-item{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    width: 100%;
+    background-color:rgb(218, 218, 218);
+}
+
+.box-1{
+    flex: 2;
+}
+.box-2{
+    flex: 3;
+}
+
+.shady-ladies{
+    height:125px;
+    width: 400px;
+}
+
+.pokemart{
+    height:125px;
+    width: 300px;
+}
+
+.appa{
+    height:155px;
+    width: 300px; 
+}
+
+.tabby{
+    height:165px;
+    width: 200px; 
+}
+
+.preview-screen{
+    height: 580px;
+    width: 100%;
+}

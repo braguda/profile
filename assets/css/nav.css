@@ -1,0 +1,44 @@
+:root {
+    --primary-color: rgb(27, 27, 27);
+    --secondary-color: rgb(240, 191, 87);
+    --tertiary-color: rgb(98, 106, 121);
+}
+
+
+.nav{
+    background-color: whitesmoke;
+    height: 100%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin: -2vh;
+    margin-right: -8px;
+    border-bottom: var(--tertiary-color) 1px solid;
+}
+
+.menu-nav{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.menu-nav a{
+    float: right;
+    text-decoration: none;
+    display: block;
+    color: var(--tertiary-color);
+    padding: 10px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menu-nav a:hover{
+    background-color: var(--secondary-color);
+    color: whitesmoke;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav .menu-nav-item.active > a{
+    /* background-color: var(--secondary-color); */
+    color: var(--tertiary-color);
+    border-bottom: var(--secondary-color) 3px solid;
+}
