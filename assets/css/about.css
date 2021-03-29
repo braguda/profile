@@ -101,7 +101,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 7vh;
+    padding-top: 5vh;
     font-size: 40px;
 }
 
@@ -114,7 +114,7 @@ body{
 }
 
 .profile-pic{
-    background-image: url("../images/self1.JPG");
+    background-image: url("../images/BrianHeadshot1.JPG");
     background-size: cover;
     background-position: 20% 20%;
     height: 353px;
