@@ -120,6 +120,7 @@ body{
     height: 353px;
     width: 353px;
     border-radius: 185px;
+    border:rgb(243, 243, 243) 3px solid;
 }
 
 .about-bio-container{
